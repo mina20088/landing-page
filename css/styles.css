@@ -1,3 +1,173 @@
 #landing{
     color: white;
+    margin-top: 0.875rem;
+    font-size: 2rem;
+}
+#social{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+@media (min-width: 576px) {
+    #landing{
+        color: white;
+        margin-top: 0.875rem;
+        font-size: 2rem;
+    }
+    #social{
+        margin-top: 1.2rem;
+        font-size: 2rem;
+        margin-left: -2rem;
+    }
+    #facebook{
+        margin-right: 1rem;
+        margin-top: 0.5625rem;
+    }
+    #twitter{
+        margin-right: 1rem;
+        margin-top: 0.5625rem;
+    }
+    #instgram{
+        margin-top: 0.5625rem;
+    }
+    #facebook a{
+
+    }
+    #social a{
+        color: beige;
+        text-decoration: none;
+    }
+    #instgram a{
+
+    }
+
+}
+@media (max-width: 575.98px)  {
+    #landing{
+        color: white;
+        margin-top: 0.875rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #social{
+        margin-top: 1.2rem;
+        font-size: 2rem;
+        margin-left: 4rem;
+    }
+    #facebook{
+        margin-right: 1rem;
+        /* color: darkorange; */
+    }
+    #twitter{
+        margin-right: 1rem;
+    }
+    #instgram{
+
+    }
+    #facebook a{
+
+    }
+    #social a{
+        color: greenyellow;
+        text-decoration: none;
+    }
+    #instgram a{
+
+    }
+}
+@media (min-width: 768px) {
+    #landing{
+        color: white;
+        margin-top: 0.875rem;
+        font-size: 2rem;
+    }
+    #social{
+        margin-top: 1.2rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    #facebook{
+        margin-right: 1rem;
+        /* color: darkorange; */
+    }
+    #twitter{
+        margin-right: 1rem;
+    }
+    #instgram{
+
+    }
+    #facebook a{
+
+    }
+    #social a{
+        color: greenyellow;
+        text-decoration: none;
+    }
+    #instgram a{
+
+    }
+}
+@media (min-width: 992px) {
+    #landing{
+        color: white;
+        margin-top: 0.875rem;
+        font-size: 2rem;
+    }
+    #social{
+        margin-top: 1.2rem;
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+    #facebook{
+        margin-right: 1rem;
+        /* color: darkorange; */
+    }
+    #twitter{
+        margin-right: 1rem;
+    }
+    #instgram{
+
+    }
+    #facebook a{
+
+    }
+    #social a{
+        color: greenyellow;
+        text-decoration: none;
+    }
+    #instgram a{
+
+    }
+}
+@media (min-width: 1200px) {
+    #landing{
+        color: white;
+        margin-top: 0.875rem;
+        font-size: 2rem;
+    }
+    #social{
+        margin-top: 1.2rem;
+        font-size: 2rem;
+        margin-left: 8rem;
+    }
+    #facebook{
+        margin-right: 1rem;
+        margin-top: 0.5625rem;
+    }
+    #twitter{
+        margin-right: 1rem;
+        margin-top: 0.5625rem;
+    }
+    #instgram{
+        margin-top: 0.5625rem;
+    }
+    #facebook a{
+
+    }
+    #social a{
+        color: greenyellow;
+        text-decoration: none;
+    }
+    #instgram a{
+
+    }
 }
