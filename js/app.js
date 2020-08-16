@@ -13,3 +13,6 @@ twitter.addEventListener('mouseover',()=>{
 instgram.addEventListener('mouseover',()=>{
       instgram.classList.toggle('animate__shakeX');
 })
+
+/*Global Functions */
+

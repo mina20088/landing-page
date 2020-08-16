@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efe48cf-a175-4b6a-8eb2-c30c537f39e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fonts/fonts/ElegantIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fonts/fonts/ElegantIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fonts/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fonts/fonts/ElegantIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -64,22 +58,34 @@
       <updated>1597322861724</updated>
       <workItem from="1597322862921" duration="620000" />
       <workItem from="1597570282249" duration="2759000" />
-      <workItem from="1597573177684" duration="12655000" />
+      <workItem from="1597573177684" duration="15372000" />
     </task>
+    <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
+      <created>1597586072348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597586072348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make the heading with animation for the social items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make the heading with animation for the social items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597573423965">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1597571806000">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1597586070995">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597571806000" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597586070995" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -92,5 +98,9 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597571308825" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597586081479">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597586081479" />
   </component>
 </project>

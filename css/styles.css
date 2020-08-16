@@ -37,7 +37,6 @@
         text-decoration: none;
     }
     #instgram a{
-
     }
 
 }
@@ -73,6 +72,16 @@
     #instgram a{
 
     }
+    #jumbotron{background: #bfc1d2;}
+    #jumbotron-header {
+        text-align: center;
+        font-size: 3rem;
+    }
+    #jumbotron-lead{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
 }
 @media (min-width: 768px) {
     #landing{
