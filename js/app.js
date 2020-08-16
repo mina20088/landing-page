@@ -19,7 +19,7 @@ instgram.addEventListener('mouseover',()=>{
 /*Navigation menu function*/
 
 function createNav(){
-    const mainNavigtion = document.querySelector('mainNavigtion')
+    const mainNavigtion = document.querySelector('#mainNavigtion')
     let Navigation = document.createDocumentFragment();
     let ul = document.createElement('ul');
     ul.setAttribute('class','nav flex-column')
