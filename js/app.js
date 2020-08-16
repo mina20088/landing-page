@@ -16,3 +16,16 @@ instgram.addEventListener('mouseover',()=>{
 
 /*Global Functions */
 
+/*Navigation menu function*/
+
+function createNav(){
+    const mainNavigtion = document.querySelector('mainNavigtion')
+    let Navigation = document.createDocumentFragment();
+    let ul = document.createElement('ul');
+    ul.setAttribute('class','nav flex-column')
+    Navigation.appendChild(ul);
+    mainNavigtion.appendChild(Navigation)
+    console.log(mainNavigtion);
+}
+
+createNav()

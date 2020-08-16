@@ -81,8 +81,18 @@
         font-size: 1.5rem;
         text-align: center;
     }
-
+    #lead{
+        text-align: center;
+    }
+    #NavCol{
+        margin-left: 6.5rem;
+    }
+    #Nav{
+        border: none;
+        background: orange;
+    }
 }
+
 @media (min-width: 768px) {
     #landing{
         color: white;
@@ -96,7 +106,6 @@
     }
     #facebook{
         margin-right: 1rem;
-        /* color: darkorange; */
     }
     #twitter{
         margin-right: 1rem;

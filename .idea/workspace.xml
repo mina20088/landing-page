@@ -58,7 +58,7 @@
       <updated>1597322861724</updated>
       <workItem from="1597322862921" duration="620000" />
       <workItem from="1597570282249" duration="2759000" />
-      <workItem from="1597573177684" duration="15372000" />
+      <workItem from="1597573177684" duration="19590000" />
     </task>
     <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
       <created>1597586072348</created>
@@ -67,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597586072348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a jumperton to the html file and make some changes on the header and the lead class for the screen width 576px only">
+      <created>1597588859376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597588859376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,17 +82,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make the heading with animation for the social items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make the heading with animation for the social items" />
+    <MESSAGE value="Added a jumperton to the html file and make some changes on the header and the lead class for the screen width 576px only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a jumperton to the html file and make some changes on the header and the lead class for the screen width 576px only" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597573423965">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1597586070995">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1597588858454">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597586070995" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597588858454" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -98,9 +106,9 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597571308825" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597586081479">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597588867100">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597586081479" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597588867100" />
   </component>
 </project>
