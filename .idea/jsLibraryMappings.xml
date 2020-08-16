@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{105cc9d7f8, a076d05399, animate.css, b2dc3d48a4, bootstrap, bootstrap-datepicker, dataTables.bootstrap, dataTables.bootstrap4, font-awesome, jquery, jquery-1.12.4, jquery-3.5.1, jquery-3.5.1.slim, jquery.dataTables, popper.js, twitter-bootstrap, w3}" />
+    <includedPredefinedLibrary name="HTTP Response Handler" />
+  </component>
+</project>
