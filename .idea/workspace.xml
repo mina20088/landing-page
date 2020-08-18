@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2efe48cf-a175-4b6a-8eb2-c30c537f39e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
@@ -62,7 +63,8 @@
       <workItem from="1597570282249" duration="2759000" />
       <workItem from="1597573177684" duration="20263000" />
       <workItem from="1597654894485" duration="14161000" />
-      <workItem from="1597746457750" duration="19431000" />
+      <workItem from="1597746457750" duration="19696000" />
+      <workItem from="1597780927890" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
       <created>1597586072348</created>
@@ -92,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597615952526</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finsish the hole project">
+      <created>1597773955084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597773955084</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,17 +112,18 @@
     <MESSAGE value="Added a jumperton to the html file and make some changes on the header and the lead class for the screen width 576px only" />
     <MESSAGE value="adding the navigation container and build the navigation using javascript" />
     <MESSAGE value="resolve bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve bugs" />
+    <MESSAGE value="finsish the hole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finsish the hole project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597573423965">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597615951320">
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597773954097">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597615951320" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597773954097" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -126,10 +136,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597772530885" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597615966596">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597773970066">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597615966596" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597773970066" />
     <state x="500" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597615764568">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

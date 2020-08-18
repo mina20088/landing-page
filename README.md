@@ -1,13 +1,26 @@
 # Landing Page Project
 
 ## Table of Contents
+* [Instructions:](#Instructions)
+* [Project Description:](#project Description:)
+* [Technologies:](#Technologies)
+* [author's](#author Name)
+##author Name:
+Mina Remon Shaker 
+##Instructions:
+You Just Need To click On the navigation menu the page 
+will be scrolled to the item that you selected;
+## Project Description:
+This project consists of one page that is talking about Elun`s
+mask  life a projects specialt Spacex and .
+##Technologies
+For the tech used in this project :
 
-* [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+1-Html 
+2-Css
+3-Bootstrap
+4-fontAwsome Library
+5-animation from `https://animate.style/;
+6-media quaries
+7-javascript
+`

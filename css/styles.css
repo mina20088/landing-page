@@ -118,6 +118,11 @@ body{
         text-decoration: none;
         font-weight: bolder;
     }
+    ul li#forth a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
 
 }
 @media (max-width: 575.98px) {
@@ -234,6 +239,11 @@ body{
         text-decoration: none;
         font-weight: bolder;
     }
+    ul li#forth a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
 }
 @media (min-width: 768px) {
     #landing{
@@ -295,6 +305,12 @@ body{
         text-decoration: none;
         font-weight: bolder;
     }
+    ul li#forth a{
+        padding: 23px;
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
     ul li#first a:hover {
         background: black;
         color: white;
@@ -306,6 +322,10 @@ body{
         color: white;
     }
     ul li#third a:hover{
+        background: black;
+        color: white;
+    }
+    ul li#forth a :hover{
         background: black;
         color: white;
     }

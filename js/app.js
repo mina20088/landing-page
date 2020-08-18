@@ -6,7 +6,7 @@ let instgram = document.getElementById('twittericon');
 let navButton = document.getElementById('Nav');
 let mainnav = document.getElementById('mainNavigtion')
 const mainNavigtion = document.querySelector('#mainNavigtion');
-const Sections =  [document.getElementById('About'),document.getElementById('Education'),document.getElementById('Career')]
+const Sections =  [document.getElementById('About'),document.getElementById('Education'),document.getElementById('Career'),document.getElementById('personal')]
 const sectionsLenght = document.getElementsByClassName('Sections').item(0).children.length
 
 /*Global Functions */
@@ -15,7 +15,7 @@ const sectionsLenght = document.getElementsByClassName('Sections').item(0).child
 function createNav(){
     let Navigation = document.createDocumentFragment();
     let ul = document.createElement('ul');
-    let linkIDs = ['first','second','third']
+    let linkIDs = ['first','second','third','forth']
     if(window.innerWidth <768){
         ul.setAttribute('class','nav flex-column')
         ul.setAttribute('id','navigation')
@@ -45,8 +45,8 @@ createNav()
 /*Add Links To nav*/
 function addlinks(){
     let navigation = document.getElementById('navigation');
-    let values = [document.querySelector('#info'),document.querySelector('#Edu'),document.querySelector('#Car')]
-    let[aboutheader,edu,Care] = values;
+    let values = [document.querySelector('#info'),document.querySelector('#Edu'),document.querySelector('#Car'),document.querySelector('#person')]
+    let[aboutheader,edu,Care,personal] = values;
     let navigationItemslenght = navigation.children.length
     for(let i = 0; i < navigationItemslenght; i++){
         let a = document.createElement('a')
@@ -86,6 +86,6 @@ navButton.addEventListener('click',()=>{
 const navigationlenght = document.querySelector('#navigation').children.length
 for(let i = 0; i < navigationlenght; i++){
     const navigation  = document.getElementById('navigation').children.item(i).children.item(0)
-    navigation.setAttribute('href',`http://localhost:63342/landing-page/index.html?_ijt=jd7uuq76s27b58r9v59ehs3g5g#${Sections[i].id}`)
+    navigation.setAttribute('href',`http://localhost:63342/landing-page/index.html?#${Sections[i].id}`)
 }
 console.log(performance.now())
