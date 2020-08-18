@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden
+}
 #landing{
     color: white;
     margin-top: 0.875rem;
@@ -38,61 +41,200 @@
     }
     #instgram a{
     }
+    #jumbotron {
+        background: #bfc1d2;
+        border-radius: 0;
+    }
+
+    #jumbotron-header {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #jumbotron-lead {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #lead {
+        text-align: center;
+    }
+
+    #NavCol {
+        margin-left: 14.5rem;
+        position: relative;
+    }
+
+    #mainNavigtion {
+        position: absolute;
+        width: 100%;
+        left: -14rem;
+        z-index: 1;
+        top: 2rem;
+    }
+    .navshowhide{
+        display: none;
+    }
+    #Nav {
+        border: none;
+        background: orange;
+        position: absolute;
+        left: 1rem;
+    }
+    ul#navigation {
+        z-index: 1;
+        background: white;
+    }
+
+    .aboutHeader {
+        border-bottom: 1px solid black;
+    }
+
+    #first:hover {
+        background: black;
+        color: white;
+    }
+
+    #second:hover {
+        background: black;
+        color: white;
+    }
+    #third:hover{
+        background: black;
+        color: white;
+    }
+    ul li#first a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#second a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#third a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
 
 }
-@media (max-width: 575.98px)  {
-    #landing{
+@media (max-width: 575.98px) {
+    #landing {
         color: white;
         margin-top: 0.875rem;
         font-size: 2rem;
         text-align: center;
     }
-    #social{
+
+    #social {
         margin-top: 1.2rem;
         font-size: 2rem;
         margin-left: 4rem;
     }
-    #facebook{
+
+    #facebook {
         margin-right: 1rem;
         /* color: darkorange; */
     }
-    #twitter{
+
+    #twitter {
         margin-right: 1rem;
     }
-    #instgram{
+
+    #instgram {
 
     }
-    #facebook a{
+
+    #facebook a {
 
     }
-    #social a{
+
+    #social a {
         color: greenyellow;
         text-decoration: none;
     }
-    #instgram a{
+
+    #instgram a {
 
     }
-    #jumbotron{background: #bfc1d2;}
+
+    #jumbotron {
+        background: #bfc1d2;
+        border-radius: 0;
+    }
+
     #jumbotron-header {
         text-align: center;
         font-size: 3rem;
     }
-    #jumbotron-lead{
+
+    #jumbotron-lead {
         font-size: 1.5rem;
         text-align: center;
     }
-    #lead{
+
+    #lead {
         text-align: center;
     }
-    #NavCol{
+
+    #NavCol {
         margin-left: 6.5rem;
+        position: relative;
     }
-    #Nav{
+
+    #mainNavigtion {
+        position: absolute;
+        width: 100%;
+        left: -3.3125rem;
+        z-index: 1;
+    }
+    .navshowhide{
+        display: none;
+    }
+    #Nav {
         border: none;
         background: orange;
     }
-}
+    ul#navigation {
+        z-index: 1;
+        background: white;
+    }
 
+    .aboutHeader {
+        border-bottom: 1px solid black;
+    }
+
+    #first:hover {
+        background: black;
+        color: white;
+    }
+
+    #second:hover {
+        background: black;
+        color: white;
+    }
+    #third:hover{
+        background: black;
+        color: white;
+    }
+    ul li#first a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#second a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#third a{
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+}
 @media (min-width: 768px) {
     #landing{
         color: white;
@@ -122,6 +264,50 @@
     }
     #instgram a{
 
+    }
+    #mainNavigtion {
+        position: absolute;
+        width: 100%;
+        left: -14.3125rem;
+        z-index: 1;
+        top: 0rem;
+    }
+    ul#navigation {
+        z-index: 1;
+        background: white;
+        padding: 0.9375rem;
+    }
+    ul li#first a{
+        padding: 23px;
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#second a{
+        padding: 23px;
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#third a{
+        padding: 23px;
+        color: coral;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    ul li#first a:hover {
+        background: black;
+        color: white;
+    }
+
+
+    ul li#second a:hover {
+        background: black;
+        color: white;
+    }
+    ul li#third a:hover{
+        background: black;
+        color: white;
     }
 }
 @media (min-width: 992px) {
@@ -155,6 +341,17 @@
     #instgram a{
 
     }
+    #mainNavigtion {
+        position: absolute;
+        width: 100%;
+        left: -14.3125rem;
+        z-index: 1;
+        top: 0rem;
+    }
+    ul#navigation {
+        z-index: 1;
+        background: white;
+    }
 }
 @media (min-width: 1200px) {
     #landing{
@@ -187,5 +384,25 @@
     }
     #instgram a{
 
+    }
+    #mainNavigtion {
+        position: absolute;
+        width: 100%;
+        left: -14.3125rem;
+        z-index: 1;
+        top: 0rem;
+    }
+    ul#navigation {
+        z-index: 1;
+        background: white;
+        padding: 0.9375rem;
+    }
+}
+@media (width: 762px) {
+    #Nav {
+        border: none;
+        background: orange;
+        position: absolute;
+        left: 4rem;
     }
 }
