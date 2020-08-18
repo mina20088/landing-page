@@ -86,6 +86,6 @@ navButton.addEventListener('click',()=>{
 const navigationlenght = document.querySelector('#navigation').children.length
 for(let i = 0; i < navigationlenght; i++){
     const navigation  = document.getElementById('navigation').children.item(i).children.item(0)
-    navigation.setAttribute('href',`http://localhost:63342/landing-page/index.html?#${Sections[i].id}`)
+    navigation.setAttribute('href',`file:///C:/Users/minar/Desktop/landing-page-master/index.html?#${Sections[i].id}`)
 }
 console.log(performance.now())
