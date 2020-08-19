@@ -13,7 +13,7 @@ body{
     margin-top: 1rem;
     font-size: 2rem;
 }
-@media (min-width: 576px) {
+@media  (min-width: 576px) {
     #landing{
         color: white;
         margin-top: 0.875rem;

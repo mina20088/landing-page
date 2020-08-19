@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,6 +47,20 @@
       <recent name="C:\Users\minar\Desktop\fend-refresh-2019\projects\landing-page" />
       <recent name="C:\Users\minar\Desktop\fend-refresh-2019\projects\landing-page\css" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/landing-page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/app.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TYPO3Settings" version="202.5.5" />
@@ -71,7 +85,8 @@
       <workItem from="1597792589684" duration="31000" />
       <workItem from="1597792862759" duration="36000" />
       <workItem from="1597793116571" duration="6000" />
-      <workItem from="1597829930363" duration="4078000" />
+      <workItem from="1597829930363" duration="4224000" />
+      <workItem from="1597834850710" duration="20580000" />
     </task>
     <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
       <created>1597586072348</created>
@@ -129,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597792072089</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="make some changes">
+      <created>1597834038567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597834038567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,17 +166,22 @@
     <MESSAGE value="README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;Build a landing page with those specific features:&#10;changing the README.md" />
     <MESSAGE value="make changes" />
     <MESSAGE value="added the location.href bom method to the scroll dunction for making it easy to scroll on every file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the location.href bom method to the scroll dunction for making it easy to scroll on every file added" />
+    <MESSAGE value="make some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597863763293">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.736@0.0.1366.736" timestamp="1597863763293" />
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597573423965">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597792070589">
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597834037094">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597792070589" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597834037094" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -163,14 +190,62 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="438" y="73" key="Github.UntrackedFilesDialog/0.0.1366.736@0.0.1366.736" timestamp="1597571780385" />
-    <state x="184" y="12" key="SettingsEditor" timestamp="1597772530885">
+    <state width="1306" height="178" key="GridCell.Tab.0.bottom" timestamp="1597863897169">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597772530885" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597792087030">
+    <state width="1306" height="178" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1597863897169" />
+    <state width="1306" height="178" key="GridCell.Tab.0.center" timestamp="1597863897169">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597792087030" />
+    <state width="1306" height="178" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1597863897169" />
+    <state width="1306" height="178" key="GridCell.Tab.0.left" timestamp="1597863897168">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="178" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1597863897168" />
+    <state width="1306" height="178" key="GridCell.Tab.0.right" timestamp="1597863897169">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="178" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1597863897169" />
+    <state width="1306" height="222" key="GridCell.Tab.1.bottom" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.1.bottom/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.1.center" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.1.center/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.1.left" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.1.left/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.1.right" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.1.right/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.2.bottom" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.2.bottom/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.2.center" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.2.center/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.2.left" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.2.left/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state width="1306" height="222" key="GridCell.Tab.2.right" timestamp="1597863862394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1306" height="222" key="GridCell.Tab.2.right/0.0.1366.736@0.0.1366.736" timestamp="1597863862394" />
+    <state x="184" y="12" key="SettingsEditor" timestamp="1597858984463">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597858984463" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597834044485">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597834044485" />
     <state x="500" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597615764568">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
