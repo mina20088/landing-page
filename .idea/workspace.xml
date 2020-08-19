@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2efe48cf-a175-4b6a-8eb2-c30c537f39e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +63,15 @@
       <workItem from="1597654894485" duration="14161000" />
       <workItem from="1597746457750" duration="19696000" />
       <workItem from="1597780927890" duration="3134000" />
+      <workItem from="1597789217588" duration="426000" />
+      <workItem from="1597789650307" duration="9000" />
+      <workItem from="1597789669011" duration="213000" />
+      <workItem from="1597791785603" duration="112000" />
+      <workItem from="1597791966335" duration="342000" />
+      <workItem from="1597792589684" duration="31000" />
+      <workItem from="1597792862759" duration="36000" />
+      <workItem from="1597793116571" duration="6000" />
+      <workItem from="1597829930363" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
       <created>1597586072348</created>
@@ -104,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597784195812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="make changes">
+      <created>1597789275680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597789275680</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added the location.href bom method to the scroll dunction for making it easy to scroll on every file added">
+      <created>1597792072089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597792072089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,17 +142,19 @@
     <MESSAGE value="resolve bugs" />
     <MESSAGE value="finsish the hole project" />
     <MESSAGE value="README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;Build a landing page with those specific features:&#10;changing the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;README.md file shoudn't have default text as required per the project specifications.&#10;four full-body sections are required per the project specifications not only three section.&#10;No **scroll** functionality.&#10;Build a landing page with those specific features:&#10;changing the README.md" />
+    <MESSAGE value="make changes" />
+    <MESSAGE value="added the location.href bom method to the scroll dunction for making it easy to scroll on every file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the location.href bom method to the scroll dunction for making it easy to scroll on every file added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597573423965">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597784194253">
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1597792070589">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597784194253" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597792070589" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -140,10 +167,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597772530885" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597784201280">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597792087030">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597784201280" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597792087030" />
     <state x="500" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597615764568">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

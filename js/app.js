@@ -81,11 +81,10 @@ instgram.addEventListener('mouseover',()=>{
 navButton.addEventListener('click',()=>{
     mainnav.classList.toggle('navshowhide')
 })
-
 /*addfunction for scrolling over the content of the page*/
 const navigationlenght = document.querySelector('#navigation').children.length
 for(let i = 0; i < navigationlenght; i++){
     const navigation  = document.getElementById('navigation').children.item(i).children.item(0)
-    navigation.setAttribute('href',`${location.href}#${Sections[i].id}`)
+    navigation.setAttribute('href',`${location.href}#${Sections[i].id}`);
 }
 console.log(performance.now())
