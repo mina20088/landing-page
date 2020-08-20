@@ -31,10 +31,10 @@ let LinksArray = ['m','n','p','q']
 
 /*Navigation menu function for small devices*/
 function createNav(){
-    let Navigation = document.createDocumentFragment();
-    let ul = document.createElement('ul');
     let linkIDs = ['first','second','third','forth']
-    if(window.innerWidth <768){
+    if(window.innerWidth < 768){
+        let Navigation = document.createDocumentFragment();
+        let ul = document.createElement('ul');
         ul.setAttribute('class','nav flex-column')
         ul.setAttribute('id','navigation')
         for(let i = 0; i < sectionsLenght; i++){
@@ -43,7 +43,11 @@ function createNav(){
             li.setAttribute('id',linkIDs[i])
             ul.appendChild(li)
         }
-    }else if(window.innerWidth >= 768){
+        Navigation.appendChild(ul);
+        mainNavigtion.appendChild(Navigation);
+    }else {
+        let Navigation = document.createDocumentFragment();
+        let ul = document.createElement('ul');
         ul.setAttribute('class','nav');
         ul.setAttribute('id','navigation');
         for(let i = 0; i < sectionsLenght; i++){
@@ -52,9 +56,11 @@ function createNav(){
             li.setAttribute('id',linkIDs[i]);
             ul.appendChild(li);
         }
+        Navigation.appendChild(ul);
+        mainNavigtion.appendChild(Navigation);
     }
-    Navigation.appendChild(ul);
-    mainNavigtion.appendChild(Navigation);
+
+
 
 }
 createNav()
@@ -111,56 +117,56 @@ navButton.addEventListener('click',()=>{
 
 /*addfunction for scrolling over the content of the page and highlight the active section and nav items*/
 
-link1.addEventListener('click',function(){
-
-    let y = About.getBoundingClientRect().y;
-    let x = About.getBoundingClientRect().x;
-    window.scrollTo(x,y);
-    info.style.background  = 'yellowgreen'
-    Edu.style.background = 'none';
-    Car.style.background = 'none';
-    person.style.background = 'none'
-    link1.style.background = 'yellowgreen'
-    link2.style.background = 'none'
-    link3.style.background = 'none';
-    link4.style.background = 'none'
-})
-link2.addEventListener('click',function (){
-    let y = Education.getBoundingClientRect().y;
-    let x = Education.getBoundingClientRect().x;
-    window.scrollTo(x,y);
-    info.style.background  = 'none'
-    Edu.style.background = 'yellowgreen';
-    link1.style.background = 'none'
-    link2.style.background = 'yellowgreen'
-    link3.style.background = 'none'
-    link4.style.background = 'none'
-})
-link3.addEventListener('click',function (){
-    let y = Career.getBoundingClientRect().y;
-    let x = Career.getBoundingClientRect().x;
-    window.scrollTo(x,y);
-    info.style.background  = 'none'
-    Edu.style.background = 'none';
-    Car.style.background = 'yellowgreen';
-    link1.style.background = 'none';
-    link2.style.background = 'none'
-    link3.style.background = 'yellowgreen'
-    link4.style.background = 'none';
-})
-
-link4.addEventListener('click',function(){
-    let y = personal.getBoundingClientRect().y;
-    let x = personal.getBoundingClientRect().x;
-    window.scrollTo(x,y);
-    info.style.background  = 'none'
-    Edu.style.background = 'none';
-    Car.style.background = 'none';
-    person.style.background = 'yellowgreen';
-    link1.style.background = 'none';
-    link2.style.background = 'none'
-    link3.style.background = 'none'
-    link4.style.background = 'yellowgreen';
-})
+// link1.addEventListener('click',function(){
+//     let y = About.getBoundingClientRect().y;
+//     let x = About.getBoundingClientRect().x;
+//     console.log(About.getBoundingClientRect())
+//     window.scrollTo(x,y);
+//     info.style.background  = 'yellowgreen'
+//     Edu.style.background = 'none';
+//     Car.style.background = 'none';
+//     person.style.background = 'none'
+//     link1.style.background = 'black'
+//     link2.style.background = 'none'
+//     link3.style.background = 'none';
+//     link4.style.background = 'none'
+// })
+// link2.addEventListener('click',function (){
+//     let y = Education.getBoundingClientRect().y;
+//     let x = Education.getBoundingClientRect().x;
+//     window.scrollTo(x,y);
+//     info.style.background  = 'none'
+//     Edu.style.background = 'yellowgreen';
+//     link1.style.background = 'none'
+//     link2.style.background = 'black'
+//     link3.style.background = 'none'
+//     link4.style.background = 'none'
+// })
+// link3.addEventListener('click',function (){
+//     let y = Career.getBoundingClientRect().y;
+//     let x = Career.getBoundingClientRect().x;
+//     window.scrollTo(x,y);
+//     info.style.background  = 'none'
+//     Edu.style.background = 'none';
+//     Car.style.background = 'yellowgreen';
+//     link1.style.background = 'none';
+//     link2.style.background = 'none'
+//     link3.style.background = 'black'
+//     link4.style.background = 'none';
+// })
+//
+// link4.addEventListener('click',function(){
+//     let y = personal.getBoundingClientRect().y;
+//     let x = personal.getBoundingClientRect().x;
+//     window.scrollTo(x,y);
+//     info.style.background  = 'none'
+//     Edu.style.background = 'none';
+//     Car.style.background = 'none';
+//     person.style.background = 'yellowgreen';
+//     link1.style.background = 'none';
+//     link2.style.background = 'none'
+//     link3.style.background = 'none'
+//     link4.style.background = 'black';
+// })
 
 console.log(performance.now());

@@ -2,7 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    overflow-x: hidden
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 #landing{
     color: white;
@@ -13,7 +14,25 @@ body{
     margin-top: 1rem;
     font-size: 2rem;
 }
+.changeContentColor{
+    background: black;
+    color: white;
+}
+.sticky{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.navsticky{
+    position: sticky;
+    top:0px;
+    z-index: 0;
+}
 @media  (min-width: 576px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     #landing{
         color: white;
         margin-top: 0.875rem;
@@ -129,6 +148,10 @@ body{
 
 }
 @media (max-width: 575.98px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     #landing {
         color: white;
         margin-top: 0.875rem;
@@ -249,6 +272,10 @@ body{
     }
 }
 @media (min-width: 768px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     #landing{
         color: white;
         margin-top: 0.875rem;
@@ -334,6 +361,10 @@ body{
     }
 }
 @media (min-width: 992px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     #landing{
         color: white;
         margin-top: 0.875rem;
@@ -377,6 +408,10 @@ body{
     }
 }
 @media (min-width: 1200px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     #landing{
         color: white;
         margin-top: 0.875rem;
