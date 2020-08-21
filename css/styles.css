@@ -20,7 +20,7 @@ body{
 }
 .sticky{
     position: sticky;
-    top:0px;
+    top:1px;
     z-index: 1;
 }
 .navsticky{
@@ -81,69 +81,31 @@ body{
     #lead {
         text-align: center;
     }
-
-    #NavCol {
-        margin-left: 14.5rem;
-        position: relative;
-    }
-
-    #mainNavigtion {
-        position: absolute;
-        width: 100%;
-        left: -14rem;
+    nav#NavCol {
+        margin-top: -2rem;
+        position: sticky;
+        top: 0;
         z-index: 1;
-        top: 2rem;
     }
-    .navshowhide{
-        display: none;
-    }
-    #Nav {
-        border: none;
-        background: orange;
-        position: absolute;
-        left: 1rem;
-    }
+
     ul#navigation {
         z-index: 1;
         background: white;
+        padding: 0.9375rem;
+        width: 100%;
+        padding: 0;
+        text-align: center;
     }
-
-    .aboutHeader {
-        border-bottom: 1px solid black;
+    .Sections {
+        margin-top: 3rem;
     }
-
-    #first:hover {
-        background: black;
-        color: white;
+    #navigation .nav-item :hover{
+        background: yellowgreen;
     }
-
-    #second:hover {
-        background: black;
-        color: white;
-    }
-    #third:hover{
-        background: black;
-        color: white;
-    }
-    ul li#first a{
+    #navigation .nav-item a {
         color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#second a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#third a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#forth a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
+        font-size: 1.5vw;
+        font-weight: bold;
     }
 
 }
@@ -209,66 +171,31 @@ body{
     #lead {
         text-align: center;
     }
-
-    #NavCol {
-        margin-left: 6.5rem;
-        position: relative;
-    }
-
-    #mainNavigtion {
-        position: absolute;
-        width: 100%;
-        left: -3.3125rem;
+    nav#NavCol {
+        margin-top: -2rem;
+        position: sticky;
+        top: 0;
         z-index: 1;
     }
-    .navshowhide{
-        display: none;
-    }
-    #Nav {
-        border: none;
-        background: orange;
-    }
+
     ul#navigation {
         z-index: 1;
         background: white;
+        padding: 0.9375rem;
+        width: 100%;
+        padding: 0;
+        text-align: center;
     }
-
-    .aboutHeader {
-        border-bottom: 1px solid black;
+    .Sections {
+        margin-top: 3rem;
     }
-
-    #first:hover {
-        background: black;
-        color: white;
+    #navigation .nav-item :hover{
+        background: yellowgreen;
     }
-
-    #second:hover {
-        background: black;
-        color: white;
-    }
-    #third:hover{
-        background: black;
-        color: white;
-    }
-    ul li#first a{
+    #navigation .nav-item a {
         color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#second a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#third a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#forth a{
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
+        font-size: 1.5vw;
+        font-weight: bold;
     }
 }
 @media (min-width: 768px) {
@@ -305,59 +232,30 @@ body{
     #instgram a{
 
     }
-    #mainNavigtion {
-        position: absolute;
-        width: 100%;
-        left: -14.3125rem;
+    nav#NavCol {
+        margin-top: -2rem;
+        position: sticky;
+        top: 0;
         z-index: 1;
-        top: 0rem;
     }
     ul#navigation {
         z-index: 1;
         background: white;
         padding: 0.9375rem;
+        width: 100%;
+        padding: 0
     }
-    ul li#first a{
-        padding: 23px;
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#second a{
-        padding: 23px;
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#third a{
-        padding: 23px;
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#forth a{
-        padding: 23px;
-        color: coral;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    ul li#first a:hover {
-        background: black;
-        color: white;
+    #navigation .nav-item :hover{
+        background: yellowgreen;
     }
 
-
-    ul li#second a:hover {
-        background: black;
-        color: white;
+    .Sections {
+        margin-top: 3rem;
     }
-    ul li#third a:hover{
-        background: black;
-        color: white;
-    }
-    ul li#forth a :hover{
-        background: black;
-        color: white;
+    #navigation .nav-item a {
+        color: coral;
+        font-size: 1.5vw;
+        font-weight: bold;
     }
 }
 @media (min-width: 992px) {
@@ -402,9 +300,29 @@ body{
         z-index: 1;
         top: 0rem;
     }
+    nav#NavCol {
+        margin-top: -2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
     ul#navigation {
         z-index: 1;
         background: white;
+        padding: 0.9375rem;
+        width: 100%;
+        padding: 0
+    }
+    .Sections {
+        margin-top: 3rem;
+    }
+    #navigation .nav-item :hover{
+        background: yellowgreen;
+    }
+    #navigation .nav-item a {
+        color: coral;
+        font-size: 1.5vw;
+        font-weight: bold;
     }
 }
 @media (min-width: 1200px) {
@@ -443,18 +361,31 @@ body{
     #instgram a{
 
     }
-    #mainNavigtion {
-        position: absolute;
-        width: 100%;
-        left: -14.3125rem;
+    nav#NavCol {
+        margin-top: -2rem;
+        position: sticky;
+        top: 0;
         z-index: 1;
-        top: 0rem;
     }
     ul#navigation {
         z-index: 1;
         background: white;
         padding: 0.9375rem;
+        width: 100%;
+        padding: 0
     }
+    .Sections {
+        margin-top: 3rem;
+    }
+    #navigation .nav-item a {
+        color: coral;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    #navigation .nav-item :hover{
+        background: yellowgreen;
+    }
+
 }
 @media (width: 762px) {
     #Nav {

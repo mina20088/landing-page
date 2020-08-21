@@ -1,18 +1,9 @@
-const sections = document.querySelectorAll('section');
-const options =
-    {
-        root:document.querySelector('.h'),
-        threshold: 0,
-        rootMargin:"0px"
-    };
-const observer = new IntersectionObserver(function
-    (entries,observer){
-    entries.forEach(entry=>{
-            console.log(entry.target)
-        // entry.target.classList.toggle('changeContentColor')
+let x = document.querySelectorAll('.Navigation li a')
+x.forEach(element=>{
+    element.addEventListener('click',(event)=>{
+        event.preventDefault();
+        document.querySelector(element.getAttribute('href')).scrollIntoView({
+            behavior:"smooth"
+        })
     })
-},options)
-
-sections.forEach(section => {
-    observer.observe(section);
 })
