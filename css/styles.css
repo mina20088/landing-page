@@ -4,6 +4,7 @@ html{
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
 }
 #landing{
     color: white;
@@ -23,11 +24,23 @@ body{
     top:1px;
     z-index: 1;
 }
+.aboutHeader{
+    border-bottom: 1px solid black;
+    color: white;
+}
 .navsticky{
     position: sticky;
     top:0px;
     z-index: 0;
 }
+section {
+    padding: 74px;
+    margin-top: 48px;
+}
+p{
+    color: white;
+}
+
 @media  (min-width: 576px) {
     body{
         overflow-x: hidden;
@@ -64,22 +77,25 @@ body{
     #instgram a{
     }
     #jumbotron {
-        background: #bfc1d2;
+        background: none;
         border-radius: 0;
     }
 
     #jumbotron-header {
         text-align: center;
         font-size: 3rem;
+        color: wheat;
     }
 
     #jumbotron-lead {
         font-size: 1.5rem;
         text-align: center;
+        color: white;
     }
 
     #lead {
         text-align: center;
+        color: wheat;
     }
     nav#NavCol {
         margin-top: -2rem;

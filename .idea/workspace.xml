@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2efe48cf-a175-4b6a-8eb2-c30c537f39e0" name="Default Changelist" comment="try to use the IntersectionObserver() function to make a dynamic scroll">
+    <list default="true" id="2efe48cf-a175-4b6a-8eb2-c30c537f39e0" name="Default Changelist" comment="make changes in style and html and">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -24,6 +24,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -118,7 +131,7 @@
       <workItem from="1597943287970" duration="10000" />
       <workItem from="1597945533317" duration="12186000" />
       <workItem from="1597963567025" duration="4652000" />
-      <workItem from="1598006045631" duration="21650000" />
+      <workItem from="1598006045631" duration="31395000" />
     </task>
     <task id="LOCAL-00001" summary="Make the heading with animation for the social items">
       <created>1597586072348</created>
@@ -197,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597963447962</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="make changes in style and html">
+      <created>1598028842220</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598028842220</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +235,8 @@
     <MESSAGE value="make some changes" />
     <MESSAGE value="changed the way that the nav scroll over the content of the page and change highlight the selected section and nav item to be active" />
     <MESSAGE value="try to use the IntersectionObserver() function to make a dynamic scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to use the IntersectionObserver() function to make a dynamic scroll" />
+    <MESSAGE value="make changes in style and html" />
+    <option name="LAST_COMMIT_MESSAGE" value="make changes in style and html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597863763293">
@@ -226,10 +247,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="424" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1597573423965" />
-    <state x="68" y="0" key="CommitChangelistDialog2" timestamp="1597963589552">
+    <state x="68" y="0" key="CommitChangelistDialog2" timestamp="1598040804833">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="68" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1597963589552" />
+    <state x="68" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1598040804833" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1597571774610">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -290,10 +311,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1597858984463" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597963637410">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598028986807">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1597963637410" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1598028986807" />
     <state x="500" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597615764568">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
