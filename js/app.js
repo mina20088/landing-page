@@ -7,7 +7,7 @@ const mainNavigtion = document.querySelector('#NavCol');
 const sectionsLenght = document.querySelectorAll('section').length
 console.log(sectionsLenght.length)
 let LinksArray = ['m','n','p','q']
-let x = document.querySelectorAll('.Navigation li a')
+
 
 /*Global Functions */
 
@@ -70,7 +70,7 @@ instgram.addEventListener('mouseover',()=>{
 // })
 
 /*addfunction for scrolling over the content of the page and highlight the active section and nav items*/
-
+let x = document.querySelectorAll('.Navigation li a')
 
 x.forEach(element=>{
     element.addEventListener('click',(event)=>{
