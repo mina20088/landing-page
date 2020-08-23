@@ -52,7 +52,7 @@ function addlinks(){
     }
 }
 addlinks();
-/*addfunction for scrolling over the content of the page and highlight the active section and nav items*/
+/*function that scroll over the page section while cliking*/
 function clickScroll(){
     let x = document.querySelectorAll('.Navigation li a')
 
@@ -110,6 +110,88 @@ function clickScroll(){
 }
 clickScroll()
 
+/*function that scroll over the page section scrolling*/
+function scroll(){
+    const section = document.querySelectorAll('section');
+    const navItens = document.querySelectorAll('.nav-link')
+    const options = {
+
+        root: document.querySelector('#viewPort'),
+        rootMargin:'-48px 0px 0px 0',
+        thresholds:0.4
+
+    };
+
+    const observer = new IntersectionObserver((entries,observer)=>{
+        entries.forEach(entry=>{
+            entry.target.style.scrollBehavior = 'smooth'
+            if(entry.isIntersecting) {
+                if(entry.target.id == 'About'){
+                    entry.target.classList.add('changeContentColor');
+                    document.querySelector('#Education').classList.remove('changeContentColor')
+                    document.querySelector('#Career').classList.remove('changeContentColor')
+                    document.querySelector('#personal').classList.remove('changeContentColor')
+                    navItens.forEach(item=> {
+                        if(item.id == 'm'){
+                            item.style.background = 'red'
+                        }else{
+                            item.style.background = 'none';
+                        }
+                    })
+                }else if(entry.target.id == 'Education'){
+                    document.querySelector('#About').classList.remove('changeContentColor')
+                    entry.target.classList.add('changeContentColor');
+                    document.querySelector('#Career').classList.remove('changeContentColor')
+                    document.querySelector('#personal').classList.remove('changeContentColor')
+                    navItens.forEach(item=> {
+                        if(item.id == 'n'){
+                            item.style.background = 'red'
+                        }else{
+                            item.style.background = 'none';
+                        }
+                    })
+                }else if(entry.target.id == 'Career'){
+                    document.querySelector('#About').classList.remove('changeContentColor')
+                    document.querySelector('#Education').classList.remove('changeContentColor')
+                    entry.target.classList.add('changeContentColor');
+                    document.querySelector('#personal').classList.remove('changeContentColor')
+                    navItens.forEach(item=> {
+                        if(item.id == 'p'){
+                            item.style.background = 'red'
+                        }else{
+                            item.style.background = 'none';
+                        }
+                    })
+
+                }else if(entry.target.id == 'personal'){
+                    document.querySelector('#About').classList.remove('changeContentColor')
+                    document.querySelector('#Education').classList.remove('changeContentColor')
+                    document.querySelector('#Career').classList.remove('changeContentColor')
+                    entry.target.classList.add('changeContentColor');
+                    navItens.forEach(item=> {
+                        if(item.id == 'q'){
+                            item.style.background = 'red'
+                        }else{
+                            item.style.background = 'none';
+                        }
+                    })
+                }else{
+                    entry.target.classList.remove('changeContentColor');
+                }
+                observer.unobserve(entry.target)
+            }
+
+        },options)
+    })
+
+    section.forEach(item=>{
+        window.addEventListener('scroll',function (event){
+            // event.preventDefault()
+            observer.observe(item)
+        })
+    })
+}
+scroll()
 /* Event listener*/
 
 
