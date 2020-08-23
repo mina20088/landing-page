@@ -16,16 +16,21 @@ body{
     font-size: 2rem;
 }
 .changeContentColor{
-    background: black;
+    background-color: #3E2E44;
     color: white;
 }
+.changeContentColor1{
+    background: none;
+    color: white;
+}
+
 .sticky{
     position: sticky;
     top:1px;
     z-index: 1;
 }
 .aboutHeader{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gainsboro;
     color: white;
 }
 .navsticky{
@@ -40,7 +45,14 @@ section {
 p{
     color: white;
 }
-
+#viewPort{
+    width: 100%;
+    position: fixed; bottom: 200px;
+    font-size: 16pt;
+    /*border-bottom: dashed 2px currentColor;*/
+    text-shadow: 0 0 10px black;
+    color: white;
+}
 @media  (min-width: 576px) {
     body{
         overflow-x: hidden;
